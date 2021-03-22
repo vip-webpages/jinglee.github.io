@@ -1,0 +1,84 @@
+body{
+font-family: Georgia;
+font-size:20px;
+padding: 20px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: absolute;
+}
+
+
+#title{
+color:rgb(100, 100 , 10);
+text-align:center;
+margin-top:1px;
+font-size:60px
+}
+
+h2,h3{
+color:rgb(80, 100,0);
+}
+
+nav{
+display:flex; 
+flex-wrap:wrap;
+}
+
+nav a{
+text-decoration: none;
+padding:10px;
+border-radius: 8px;
+background-color: rgb(150,150,30);
+color:rgb(50,50,5); 
+grid-column-gap: 10px;
+}
+
+aside{
+float: right;
+}
+
+ul{
+display:block;
+list-style-image:url('images/list.png');
+}
+
+.f1{
+border: inset;
+border-radius:30px;
+padding-bottom: 30px;
+padding-left: 30px;
+display:block;
+color:rgb(0,0,0);
+}
+
+.f1 label{
+display:block;
+}
+ 
+.button{
+background-color:red;
+color:white;
+padding:8px;
+border:none;
+border-radius: 8px;
+}
+
+.button:active{
+background-color:green;
+}
+
+.inner{
+	text-align: center;
+	font-size: 18px;
+}
+
+
